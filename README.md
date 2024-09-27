@@ -47,9 +47,11 @@ streamlit run dashboard.py
 ```
 
 # screenshoot
-![image](https://github.com/user-attachments/assets/157dfaad-24ad-4533-951d-bacfb7de5b0d)
-![image](https://github.com/user-attachments/assets/6fde829e-3f67-4720-850a-b25bfb36a165)
-![image](https://github.com/user-attachments/assets/affdb80f-6a46-498a-a579-5491d4fc149b)
+![image](https://github.com/user-attachments/assets/aca90010-cd1e-4009-8ff9-440aa963f626)
+![image](https://github.com/user-attachments/assets/c5d4042d-6ac2-4b5a-ab71-5276f12bbf78)
+![image](https://github.com/user-attachments/assets/6757f1a6-01a6-4596-acf6-761b7abc077f)
+
+
 
 
 
