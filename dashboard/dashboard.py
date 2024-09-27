@@ -48,7 +48,7 @@ def create_hour_df(df):
 
 
 # Load and preprocess data
-main_data = pd.read_csv('https://github.com/ricoWidiyatma/submission1/raw/refs/heads/main/dashboard/main_data.csv')
+main_data = pd.read_csv('https://github.com/ricoWidiyatma/submission/raw/refs/heads/main/dashboard/main_data.csv')
 main_data['dteday'] = pd.to_datetime(main_data['dteday'])
 main_data.sort_values(by='dteday', inplace=True)
 
@@ -57,7 +57,7 @@ min_date = main_data['dteday'].min()
 max_date = main_data['dteday'].max()
 
 with st.sidebar:
-    st.image("submission/dashboard/logo_bike.png")
+    st.image("https://github.com/ricoWidiyatma/submission/blob/main/dashboard/logo_bike.png")
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
