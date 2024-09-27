@@ -57,7 +57,7 @@ min_date = main_data['dteday'].min()
 max_date = main_data['dteday'].max()
 
 with st.sidebar:
-    st.image("https://raw.githubusercontent.com/ricoWidiyatma/submission/main/dashboard/logo_bike.png")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/5/52/BMC_Logo_2021.jpg")
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
