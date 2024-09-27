@@ -48,7 +48,7 @@ def create_hour_df(df):
 
 
 # Load and preprocess data
-main_data = pd.read_csv('https://github.com/ricoWidiyatma/submission1/raw/refs/heads/master/dashboard/main_data.csv')
+main_data = pd.read_csv('https://github.com/ricoWidiyatma/submission1/raw/refs/heads/main/dashboard/main_data.csv')
 main_data['dteday'] = pd.to_datetime(main_data['dteday'])
 main_data.sort_values(by='dteday', inplace=True)
 
